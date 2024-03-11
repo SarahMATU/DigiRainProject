@@ -1,5 +1,5 @@
 ---
-layout:home
+layout: home
 ---
 
-Welcom to my Digital Rain Project
+Welcome to my Digital Rain C++ blog!
