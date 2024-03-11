@@ -1,15 +1,33 @@
 ---
 layout: post
-title: A Project in Modern C++
+title: Digital Rain Project
 tags: cpp coding project
 categories: demo
 ---
+# Digital Rain Project
 
-This is my first paragraph...
+For our C++ Module, we were tasked in creating a Digital Rain or _Matrix Project_ in C++
 
-## This is a Heading
+<img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/images/matrix-matrix-code.gif" width="489" height="200">
 
-This is a paragraph. Add an empty line to start a new paragraph.
+## Introduction
+So lets define what Digital Rain actually is: _Matrix digital rain, or Matrix code, is the computer code featured in the Matrix series._[1] So it was first referenced in the movie, The Matrix; orginally created by Simon Whiteley and his Wife, the iconic digital rain sequence has featured in many video games and movies alike since its debut. The breakdown of what Digital Rain actullay is can be summed up to lines of random numbers/letter that are printed ina  single/multiple lines to create a raindrop effect.
+## Design & Test
+## Algorithm
+## Problem-Solving
+## Modern C++
+## References
+[1] Matrix digital rain (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Matrix_digital_rain (Accessed: 11 March 2024). 
+
+
+
+
+
+
+
+
+
+
 
 Font can be *Italic* or **Bold**.
 
