@@ -25,4 +25,4 @@ A bullet list:
 
 You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
 
-<img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/images/DigiRain.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/images/DigiRain.png" width="900" height="300">
