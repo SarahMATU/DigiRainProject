@@ -67,7 +67,7 @@ I also set console limits so the console doesn't move when printing. For this, I
 One of the main problems I encountered was getting the vector random. I had issues in the early days of the vector choosing a random character but only printing that character. I sorted that bug and then faced another when trying to figure out how to print multiple lines at one time. I had only been printing the entire vector at once or single lines of random characters. I finally figured it out when calling the print function I wasn't updating the X and Y coordinates so I was only printing in one place. I fixed this by setting the new random x and y coordinates after the line has been printed.
 
 ## Modern C++
-When thinking about Modern C++ there are a lot of features that can speed up the process of write and building code. I used some Standard library containers such as std:vector to create my group of characters. For the generation of those characters, I used std::default_random_engine to create a random set of numbers which will be converted to their ASCII equivalent. this allows the numbers that are generated to be truly random [4].
+When thinking about Modern C++ there are a lot of features that can speed up the process of writing and building code. I used some Standard library containers such as std:vector to create my group of characters. For the generation of those characters, I used std::default_random_engine to create a random set of numbers which will be converted to their ASCII equivalent. this allows the numbers that are generated to be truly random [4].
 ```
 std::default_random_engine e((unsigned int)std::chrono::system_clock::now().time_since_epoch().count());
 ```
