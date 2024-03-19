@@ -72,6 +72,9 @@ When thinking about Modern C++ there are a lot of features that can speed up the
 std::default_random_engine e((unsigned int)std::chrono::system_clock::now().time_since_epoch().count());
 ```
 
+<img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/image/rain.png" width="600" height="350">
+
+
 ## References
 [1] Matrix Digital Rain (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Matrix_digital_rain (Accessed: 11 March 2024).
 
