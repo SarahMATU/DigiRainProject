@@ -5,7 +5,7 @@ tags: cpp coding project
 categories: demo
 ---
 
-For our C++ Programming Module, we were tasked with creating a Digital Rain or _Matrix Digital Rain Project_ in C++
+For our C++ Programming Module, we were tasked with creating a Digital Rain or _Matrix Digital Rain Project_ in C++.
 
 <img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/images/Raining.gif" width="600" height="350">
 
@@ -46,7 +46,7 @@ and finally...
 
 Number 3, how would I display them? I want single streams of characters, but do I want them falling one after another from left to right, right to left, truly random? There are so many possibilities and any of them is possible. I decided on single streams printing about 9 characters per line, in different coordinates for each line of code.
 
-I also created a function to hide the cursor that displays in the console 
+I also created a function to hide the cursor that displays in the console.
 ```
 void DigiRain::hideCursor() {
 	CONSOLE_CURSOR_INFO info;
