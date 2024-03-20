@@ -10,7 +10,6 @@ For our C++ Programming Module, we were tasked with creating a Digital Rain or _
 <img src="https://raw.githubusercontent.com/sarahMATU/DigiRainProject/main/docs/assets/images/Raining.gif" width="600" height="350">
 
 ## Introduction
---------------------------------------------------------------------------------------------------
 So let's define Digital Rain: _Matrix digital rain, or Matrix code, is the computer code featured in the Matrix series._[1] 
 
 So it was first referenced in the movie, The Matrix; created by Simon Whiteley and his Wife, the iconic digital rain sequence has featured in many video games and movies since its debut. The breakdown of what Digital Rain is can be summed up to lines of random characters that are printed in single/multiple lines to create a raindrop effect.
@@ -18,7 +17,6 @@ So it was first referenced in the movie, The Matrix; created by Simon Whiteley a
 When thinking about this Project idea, I had to do a good bit of research on how I could achieve this effect in C++. I first decided to look into Vectors which could hold my set of random characters which I could then iterate through and print into single strings. Using Vectors I could save on space and time as it could be generated at once. I also researched the WindowsConsoleAPI as this would allow me to edit my console window.
 
 ## Design & Test
---------------------------------------------------------------------------------------------------
 In designing this project, I had to think of 3 main components,
 1. What colour did I want my text?
 2. What characters do I want to display?
@@ -59,7 +57,6 @@ void DigiRain::hideCursor() {
 ```
 
 ## Algorithm
---------------------------------------------------------------------------------------------------
 Creating an Algorithm to simulate Digital Rain is very interesting. For the Raindrops themselves, I had to find how long I wanted the drops, if it chose the same characters or random if the colours change automatically or have the option of selecting the colour. For my project, I decided to stick with the same characters for the rain and have the colour change for each stream of rain. This way it is good to keep track of each run-through of the nested loops.
 ```
 void DigiRain::PrintSingle() {
@@ -84,7 +81,6 @@ This was the function I created for my project. For GoToXY(), I decided to creat
 I also set console limits so the console doesn't move when printing. For this, I resized the vector to make it fit 100 columns and 19 rows. This way the console should not move and start printing on a new section. I also put a rule so that if the characters exceed this the console will clear and start again.
 
 ## Problem-Solving
---------------------------------------------------------------------------------------------------
 One of the main problems I encountered was getting the vector random. I had issues in the early days of the vector choosing a random character but only printing that character. I sorted that bug and then faced another when trying to figure out how to print multiple lines at one time. I had only been printing the entire vector at once or single lines of random characters. I finally figured it out when calling the print function I wasn't updating the X and Y coordinates so I was only printing in one place. I fixed this by setting the new random x and y coordinates after printing the line.
 
 ## Modern C++
