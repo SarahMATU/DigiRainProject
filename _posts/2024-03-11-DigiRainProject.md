@@ -17,7 +17,7 @@ So it was first referenced in the movie, The Matrix; created by Simon Whiteley a
 When thinking about this Project idea, I had to do a good bit of research on how I could achieve this effect in C++. I first decided to look into Vectors which could hold my set of random characters which I could then iterate through and print into single strings. Using Vectors I could save on space and time as it could be generated at once. I also researched the WindowsConsoleAPI as this would allow me to edit my console window.
 
 ## Design & Test
-In Designing this project, I had to think of 3 main components. 
+In designing this project, I had to think of 3 main components,
 1. What colour did I want my text?
 2. What characters do I want to display?
 3. How did I want to display them?
@@ -33,11 +33,14 @@ std::uniform_int_distribution <int> colour(0, 15);
 ```
 There are 16 different colours that the console can set the text to and with this function I can get the distribution function to pick a number for me and later in the code that will set the above function [2].
 
+--------------------------------------------------------------------------------------------------
+
 Number 2 is a little more difficult. I could either type out each character I wanted to use into a vector or use a random distribution function to fill the vector for me. I chose to use the random distribution function to choose my vector of strings. Like the colour function above I am using another distribution function to set the character. Using the static_cast, it takes the ASCII character and converts it to its char equivalent. For instance, if we take 40 in ASCII this equates to '(' which is the open bracket [3].
 ```
 std::uniform_int_distribution <int> u(33, 254);
 c[0][i] = static_cast<char>(u(e));
 ```
+--------------------------------------------------------------------------------------------------
 
 and finally...
 
