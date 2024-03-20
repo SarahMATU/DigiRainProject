@@ -73,9 +73,9 @@ void DigiRain::PrintSingle() {
 	}
 }
 ```
-This was the function I created for my project. For GoToXY(), I decided to create two more random functions to pick the position on the console of where to start printing and increase the y coord so it prints the line for the length of the first for loop. The For loop decides how long the stream is which means it will print the length of the Rain characters and then move on to the next line.
+This was the function I created for my project. For GoToXY(), I decided to create two more random functions to pick the position on the console of where to start printing and increase the y coord so it prints the line for the length of the first For loop. This loop decides how long the stream is which means it will print the length of the Rain characters which is a const that can be changed and then move on to the next line and print that one and so on.
 
-I also set console limits so the console doesn't move when printing. For this, I resized the vector to make a vector for 100 characters for 19 rows. This way the console should not move and start printing on a new section. I also put a rule so that if the characters exceed this the console will clear and start again.
+I also set console limits so the console doesn't move when printing. For this, I resized the vector to make it fit 100 columns and 19 rows. This way the console should not move and start printing on a new section. I also put a rule so that if the characters exceed this the console will clear and start again.
 
 ## Problem-Solving
 One of the main problems I encountered was getting the vector random. I had issues in the early days of the vector choosing a random character but only printing that character. I sorted that bug and then faced another when trying to figure out how to print multiple lines at one time. I had only been printing the entire vector at once or single lines of random characters. I finally figured it out when calling the print function I wasn't updating the X and Y coordinates so I was only printing in one place. I fixed this by setting the new random x and y coordinates after printing the line.
